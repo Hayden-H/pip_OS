@@ -1,0 +1,37 @@
+﻿body, html {
+    background-color: rgba(0, 0, 0, 1);
+    overflow: hidden;
+}
+
+#pip {
+    height: 100vh; /* Or 100vh for full screen */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+    color: lawngreen;
+    font-family: monospace;
+    overflow-y: auto; /* Enables scrolling */
+    padding: 0;
+    overflow: hidden;
+}
+
+
+#bios {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    word-wrap: break-word; /* Ensure lines wrap within the container */
+    overflow: hidden;
+}
+
+.bios-line {
+    margin-bottom: 1px;
+    padding: 0;
+}
+
+#prebootText {
+    margin-top: 14%;
+    margin-left: 5%;
+}
